@@ -7,7 +7,7 @@ const DisplaySection = () => {
 const nav = useNavigate();
 
   return (
-    <div className="grid grid-cols-2 sm:grid-cols-1 items-center justify-start">
+    <div className="grid grid-cols-2 items-center justify-start">
       <div className=" h-auto py-4 ">
       <lottie-player  src="https://lottie.host/7d48f686-a2fe-4fc9-a000-484d0d6be0e4/7hn6owqWbD.json" background="transparent" speed="1"  loop autoplay direction="1" mode="normal"></lottie-player>
       </div>
