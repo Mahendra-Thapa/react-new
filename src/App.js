@@ -15,9 +15,9 @@ const App = () => {
     {index: true, element: <Home /> },
     {path: 'about', element: <About />},
     {path: 'contact', element: <Contact />},
-    {path: 'about/us/page', element: <About />},
-    {path: 'contact/us/page', element: <Contact />},
-    {path: 'Home/page', element: <Home />},
+    // {path: 'about/us/page', element: <About />},
+    // {path: 'contact/us/page', element: <Contact />},
+    // {path: 'Home/page', element: <Home />},
     
    ]
   }])

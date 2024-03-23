@@ -11,6 +11,16 @@ module.exports = {
     },
 
     extend: {
+      animation: {
+        border: 'border 4s ease infinite',
+      },
+      keyframes: {
+        border: {
+          '0%': { border: '4px dashed black' },
+          '100%': { border: '12px solid blue' },
+        },
+      },
+    
       backgroundColor: {
         'common': 'pink'
       },
