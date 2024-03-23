@@ -2,13 +2,13 @@ import { DiAndroid, DiApple, DiAppstore, DiAtom, DiBackbone, DiCoffeescript, DiC
 const Tech = () => {
   return (
 <div>
-    <div className=" py-6  text-center ">
+    <div className=" py-2  text-center ">
        <h1 className="text-3xl font-semibold py-4">Technologies I Use</h1>
        <p>Lorem ipsum dolor sit amet consectetur consectetur
 adipisicing elit. Ratione, voluptates?
 </p>
     </div>
-    <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-4 place-items-center py-14 gap-y-10" >
+    <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-4 place-items-center py-4 gap-y-4" >
 
       <DiAndroid  className='animate-bounce' size={150} />
       <DiReact className="hover:text-pink-800 animate-ping" size={150} />
