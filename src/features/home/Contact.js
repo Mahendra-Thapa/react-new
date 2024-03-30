@@ -13,8 +13,8 @@ const Contact = () => {
           className="bg-no-repeat bg-cover bg-center bg-blend-darken h-[325px] rounded-3xl "
         ></div>
 
-        <div className="  px-10 text-center md:mt-8">
-          <p className="flex font-semibold gap-8 text-xl py-2">
+        <div className="  text-center md:mt-8">
+          <p className="flex sm:grid font-semibold gap-8 text-xl py-2">
             {" "}
             <label htmlFor="">Name:- </label>{" "}
             <input
@@ -24,7 +24,7 @@ const Contact = () => {
             />
           </p>
 
-          <p className="flex font-semibold text-xl gap-9 py-2">
+          <p className="flex sm:grid font-semibold text-xl gap-9 py-2">
             {" "}
             <label htmlFor="">Email:- </label>{" "}
             <input
@@ -34,7 +34,7 @@ const Contact = () => {
             />
           </p>
 
-          <p className="flex font-semibold text-xl gap-1 py-2">
+          <p className="flex sm:grid font-semibold text-xl gap-1 py-2">
             {" "}
             <label htmlFor="">Message:- </label>
             <textarea
